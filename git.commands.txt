@@ -1,0 +1,15 @@
+
+
+
+27  config --global user.name blf9 
+28  git config --global user.email brian.funaro@yale.edu
+29  git commit abc.txt -m I added abc.txt as a test 
+30  echo "# gittest" >> README.md
+31  git init
+32  git add README.md
+33  git commit -m "first commit"
+34  git remote add origin https://github.com/blf9/gittest.git
+35  git push -u origin master
+
+
+
